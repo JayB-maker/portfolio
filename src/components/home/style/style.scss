@@ -1,0 +1,86 @@
+.container.home{
+    height: 88vh;
+}
+
+.container.home, .hero-details{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .hero-details{
+        gap: 3px;
+        h1{
+            font-size: 2.5rem;
+        }
+    }
+
+    .home-cta{
+        margin-top: 1rem;
+        display: flex;
+        gap: 15px;
+    }
+
+    .Image-container{
+        margin-top: 2rem;
+        display: block;
+        height: 400px;
+        width: 300px;
+        overflow: hidden;
+        border-radius: 50em 50em 0 0;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .left{
+        position: absolute;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        bottom: 0;
+        align-items: center;
+
+        a{
+            font-size: 1rem;
+        }
+
+        .line{
+            content: "";
+            height: 3rem;
+            width: 2px;
+            background-color: var(--text);
+        }
+    }
+
+    .right{
+        position: absolute;
+        right: 0;
+        bottom: 2rem;
+        transform: rotate(90deg);
+        cursor: pointer;
+        transition: var(--transition);
+
+        &:hover{
+            color: var(--accent);
+        }
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .container.home{
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .container.home{
+        height: 70vh;
+
+        .left, .right{
+            display: none;
+        }
+    }
+}
