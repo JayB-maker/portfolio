@@ -17,6 +17,7 @@ header .container {
           align-items: center;
   place-content: space-between;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 header .container a {

@@ -39,7 +39,7 @@ body {
 
 body .container {
   width: var(--container-lg);
-  margin: 15px auto 0;
+  margin: 15px auto 150px;
 }
 
 body img {
@@ -109,8 +109,8 @@ body .btn-secondary:hover {
 
 @media screen and (max-width: 600px) {
   body .container {
-    margin-top: 30px;
     width: var(--container-sm);
+    margin-bottom: 70px;
   }
 }
 /*# sourceMappingURL=index.css.map */

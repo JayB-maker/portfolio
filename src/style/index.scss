@@ -41,7 +41,7 @@
     .container{
         width: var(--container-lg);
         // margin-top: 150px;
-        margin: 15px auto 0;
+        margin: 15px auto 150px;
     }
 
     img{
@@ -111,8 +111,8 @@
   @media screen and (max-width: 600px){
       body{
           .container{
-              margin-top: 30px;
               width: var(--container-sm);
+              margin-bottom: 70px;
           }
       }
   }

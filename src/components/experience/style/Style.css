@@ -1,0 +1,111 @@
+.container.experience {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 70px;
+}
+
+.container.experience .headers {
+  text-align: center;
+}
+
+.container.experience .experience-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3rem;
+}
+
+.container.experience .experience-flex .card {
+  background: var(--primary-color);
+  padding: 2rem;
+  border-radius: 20px;
+  width: 400px;
+  text-align: center;
+}
+
+.container.experience .experience-flex .card h3 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container.experience .experience-flex .card .items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  text-align: left;
+}
+
+.container.experience .experience-flex .card .items .item-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.8rem;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.container.experience .experience-flex .card .items .item-flex .icon {
+  margin-top: 0.2rem;
+  color: var(--accent);
+}
+
+.container.experience .experience-flex .card .items .item-flex .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.container.experience .experience-flex .card .items .item-flex .list h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.container.experience .experience-flex .card .items .item-flex .list h6 {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 1024px) {
+  .container.experience {
+    gap: 50px;
+  }
+  .container.experience .experience-flex .card {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container.experience {
+    gap: 50px;
+  }
+  .container.experience .experience-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container.experience .experience-flex .card {
+    width: 350px;
+  }
+}
+/*# sourceMappingURL=Style.css.map */

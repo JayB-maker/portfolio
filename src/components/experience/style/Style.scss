@@ -1,0 +1,94 @@
+.container.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+
+    .headers{
+        text-align: center;
+    }
+
+    .experience-flex{
+        display: flex;
+        gap: 3rem;
+
+        .card{
+            background: var(--primary-color);
+            padding: 2rem;
+            border-radius: 20px;
+            width: 400px;
+            text-align: center;
+
+            h3{
+                font-size: 1rem;
+                margin-bottom: 1rem;
+            }
+
+            .items{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                text-align: left;
+
+                .item-flex{
+                    display: flex;
+                    gap: 0.8rem;
+                    align-items: flex-start;
+                    margin-bottom: 1rem; 
+
+                    .icon{
+                        margin-top: 0.2rem;
+                        color: var(--accent);
+                    }
+                    
+                    .list{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 0.3rem;
+                        margin-bottom: 1rem; 
+
+                        h4{
+                            font-size: 1.2rem;
+                            font-weight: bold;
+                        }
+    
+                        h6{
+                            font-size: 0.8rem;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .container.experience{
+        gap: 50px;
+
+        .experience-flex{
+        .card{
+            width: 320px;
+        }
+    
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container.experience{
+        gap: 50px;
+
+        .experience-flex{
+            display: flex;
+            flex-direction: column;
+
+            .card{
+                width: 350px;
+            }
+    
+        }
+    }
+}
