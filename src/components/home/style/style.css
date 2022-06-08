@@ -1,5 +1,6 @@
 .container.home {
   height: 88vh;
+  margin-top: 0;
 }
 
 .container.home, .hero-details {

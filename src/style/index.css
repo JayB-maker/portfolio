@@ -29,7 +29,11 @@ body {
 
 body .container {
   width: var(--container-lg);
-  margin: 0 auto;
+  margin: 150px auto 0;
+}
+
+body img {
+  width: 100%;
 }
 
 body a {
@@ -44,6 +48,11 @@ body a:hover {
 
 body h6 {
   font-size: 1rem;
+}
+
+body h3 {
+  color: var(--accent);
+  font-size: 1.7rem;
 }
 
 body .btn-primary {
@@ -85,6 +94,7 @@ body .btn-secondary:hover {
 
 @media screen and (max-width: 600px) {
   body .container {
+    margin-top: 30px;
     width: var(--container-sm);
   }
 }

@@ -11,6 +11,7 @@ header .container {
       -ms-flex-align: center;
           align-items: center;
   place-content: space-between;
+  margin-top: 0;
 }
 
 header .container .nav-container ul {

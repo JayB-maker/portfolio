@@ -31,7 +31,12 @@
 
     .container{
         width: var(--container-lg);
-        margin: 0 auto;
+        // margin-top: 150px;
+        margin: 150px auto 0;
+    }
+
+    img{
+        width: 100%;
     }
 
     a{
@@ -45,6 +50,10 @@
 
     h6{
         font-size: 1rem;
+    }
+    h3{
+        color: var(--accent);
+        font-size: 1.7rem;
     }
 
     .btn-primary{
@@ -88,6 +97,7 @@
   @media screen and (max-width: 600px){
       body{
           .container{
+              margin-top: 30px;
               width: var(--container-sm);
           }
       }
