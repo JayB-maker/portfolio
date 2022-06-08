@@ -54,11 +54,11 @@ header .container .exit, header .container .mobile-menu {
     padding: 20px 0;
   }
   header .container .nav-container ul.show {
-    -webkit-transition: var(--transition);
-    transition: var(--transition);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
   }
   header .container .nav-container ul {
     display: none;

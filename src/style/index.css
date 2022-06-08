@@ -42,6 +42,10 @@ body .container {
   margin: 15px auto 150px;
 }
 
+body .headers {
+  text-align: center;
+}
+
 body img {
   width: 100%;
 }

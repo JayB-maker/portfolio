@@ -40,10 +40,13 @@
 
     .container{
         width: var(--container-lg);
-        // margin-top: 150px;
         margin: 15px auto 150px;
     }
-
+    
+    .headers{
+        text-align: center;
+    }
+    
     img{
         width: 100%;
     }

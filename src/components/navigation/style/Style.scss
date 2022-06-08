@@ -53,8 +53,8 @@ header{
             .nav-container{
 
                 ul.show{
-                    transition: var(--transition);
                     display: flex;
+                    transition: var(--transition);
                 }
 
                 ul{
