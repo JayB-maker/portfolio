@@ -12,7 +12,7 @@ const Navigation = () => {
     return(
         <header>
             <div className="container">
-                <h1>Jayb—ee</h1>
+                <a href="#">Jayb—ee</a>
                 <div className="nav-container">
                     <ul className= {`nav-list ${navState? "show" : ""}`}>
                         <div className="exit" onClick={() => setNavState(false)}><MdClose /></div>

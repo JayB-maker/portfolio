@@ -1,6 +1,11 @@
 header{
     background: var(--background-color);
-    padding: 55px 0px;
+    padding: 20px 0;
+    background-color: var(--background-color);
+    position: fixed;
+    z-index: 10;
+    width: 100vw;
+    top: 0;
 
     .container{
         display: flex;
@@ -8,8 +13,18 @@ header{
         place-content: space-between;
         margin-top: 0;
 
+        a{
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 2.5rem;
+            font-weight: bold;
+
+            &:hover{
+                color: var(--text);
+                opacity: 0.9;
+            }
+        }
+
         .nav-container{
-            // width: fit-content;
         
             ul{
                 display: flex;
@@ -32,31 +47,32 @@ header{
 
 @media screen and (max-width: 1024px) {
     header{
+        padding: 20px 0;
         .container{
             .nav-container{
 
                 ul.show{
+                    transition: var(--transition);
                     display: flex;
                 }
 
                 ul{
-                    // display: flex;
                     display: none;
                     flex-direction: column;
                     width: 70vw;
                     height: 100vh;
                     padding-top: 55px;
-                    gap: 50px;
+                    gap: 30px;
                     position: fixed;
-                    z-index: 10;
+                    z-index: 9;
                     right: 0;
                     top: 0;
                     background: var(--background-color);
+                    transition: var(--transition);
 
                     li{
                         a{
-                            font-size: 1.5rem;
-                            text-align: right;
+                            font-size: 1rem;
                         }
                     }
 

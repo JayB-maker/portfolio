@@ -1,6 +1,6 @@
 .container.home{
     height: 88vh;
-    margin-top: 0;
+    margin-top: 7rem;
 }
 
 .container.home, .hero-details{
@@ -17,13 +17,13 @@
     }
 
     .home-cta{
-        margin-top: 1rem;
+        margin-top: 2rem;
         display: flex;
         gap: 15px;
     }
 
     .Image-container{
-        margin-top: 2rem;
+        margin-top: 4rem;
         display: block;
         height: 400px;
         width: 300px;
@@ -58,7 +58,7 @@
 
     .right{
         position: absolute;
-        right: 0;
+        right: -2rem;
         bottom: 2rem;
         transform: rotate(90deg);
         cursor: pointer;

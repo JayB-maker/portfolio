@@ -1,4 +1,5 @@
 .container.about{
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,6 +58,7 @@
 
 @media screen and (max-width: 1024px){
     .container.about{
+        margin-top: 70px;
         .about-flex{
             .image-container{
                 display: none;
