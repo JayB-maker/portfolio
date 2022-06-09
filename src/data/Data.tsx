@@ -1,3 +1,4 @@
+
 export const navs = [{
     menu: "HOME",
     route: "#"
@@ -72,3 +73,35 @@ export const serviceDetails = [
         details: ["Lorem ipsum dolor sit amet, id lacus consectetur adipiscing elit. Vivamus egestas, luctus eni", "Lorem ipsum dolor sit amet, id lacus consectetur adipiscing elit. Vivamus egestas, luctus eni", "Lorem ipsum dolor sit amet, id lacus consectetur adipiscing elit. Vivamus egestas, luctus eni", "Lorem ipsum dolor sit amet, id lacus consectetur adipiscing elit. Vivamus egestas, luctus eni", "Lorem ipsum dolor sit amet, id lacus consectetur adipiscing elit. Vivamus egestas, luctus eni",]
     }, 
 ]
+
+export const portfolioDetails = [{
+    projectName: "Login and Registration Form",
+    githubLink: "https://github.com/JayB-maker/Responsive-login-and-Registration-form",
+    liveDemoLink: "https://jayb-maker.github.io/Responsive-login-and-Registration-form/",
+    imageSRC: "images/login.jpg",
+}, {
+    projectName: "Fylo Landing Page",
+    githubLink: "https://github.com/JayB-maker/Fylo-Landing-Page",
+    liveDemoLink: "https://jayb-maker.github.io/Fylo-Landing-Page/",
+    imageSRC: "images/fylo.jpg",
+}, {
+    projectName: "Mist Garden",
+    githubLink: "https://github.com/JayB-maker/Mist-Garden",
+    liveDemoLink: "https://jayb-maker.github.io/Mist-Garden/",
+    imageSRC: "images/mist.jpg",
+}, {
+    projectName: "Web Weather Application",
+    githubLink: "https://github.com/JayB-maker/Weather-app",
+    liveDemoLink: "https://jayb-maker.github.io/Weather-app/",
+    imageSRC: "images/weather.jpg",
+}, {
+    projectName: "Note Application",
+    githubLink: "https://github.com/JayB-maker/note",
+    liveDemoLink: "https://jayb-maker.github.io/note/",
+    imageSRC: "images/note.jpg",
+}, {
+    projectName: "Filterable Gallery App",
+    githubLink: "https://github.com/JayB-maker/Filterable-Gallery",
+    liveDemoLink: "https://jayb-maker.github.io/Filterable-Gallery/",
+    imageSRC: "images/filterable.jpg",
+}, ]

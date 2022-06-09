@@ -1,0 +1,88 @@
+.container.portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 100px;
+}
+
+.container.portfolio .portfolio-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+}
+
+.container.portfolio .portfolio-container .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem 1.5rem 4rem;
+  background: var(--primary-color);
+  border-radius: 20px 20px 0 0;
+}
+
+.container.portfolio .portfolio-container .card .image-container {
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 5px 0px black;
+          box-shadow: 0 0 5px 0px black;
+}
+
+.container.portfolio .portfolio-container .card .image-container img {
+  height: 102%;
+}
+
+.container.portfolio .portfolio-container .card .project-name {
+  margin-bottom: 1rem;
+}
+
+.container.portfolio .portfolio-container .card .project-name h6 {
+  font-size: 1.2rem;
+}
+
+.container.portfolio .portfolio-container .card .project-cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container.portfolio .portfolio-container .card .project-cta a.live-demo {
+  color: var(--accent);
+}
+
+@media screen and (max-width: 1024px) {
+  .container.portfolio {
+    gap: 50px;
+  }
+  .container.portfolio .portfolio-container {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container.portfolio .portfolio-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    gap: 60px;
+  }
+  .container.portfolio .portfolio-container {
+    padding: 0 1rem;
+  }
+}
+/*# sourceMappingURL=Style.css.map */

@@ -5,17 +5,17 @@ const ServiceCard = () => {
   return (
     <>
         <div className="service-grid">
-            {serviceDetails.map((item) => (
+            {serviceDetails.map((item, key) => (
               <div className="service-card">
-                <div className="track">
+                <div className="track" key={key}>
                   <h3>{item.track}</h3>
                 </div>
                 <div className="details">
-                  {item.details.map((subItem) => (
+                  {item.details.map((subItem, key) => (
                     <>
-                      <div className="detail-flex">
+                      <div className="detail-flex" key={key}>
                         <div className="icon"><AiFillCheckCircle /></div>
-                        <div className="detail">{subItem}</div>
+                        <div className="detail" key={key}>{subItem}</div>
                       </div>
                     </>
                   ))}
