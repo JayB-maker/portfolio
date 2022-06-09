@@ -1,5 +1,4 @@
 .container.service .service-grid {
-  margin-top: 70px;
   display: -ms-grid;
   display: grid;
   gap: 3rem;
@@ -49,11 +48,5 @@
 
 .container.service .service-grid .service-card .detail-flex .detail {
   font-size: 1rem;
-}
-
-@media screen and (max-width: 1024px) {
-  .container.service .service-grid {
-    margin-top: 50px;
-  }
 }
 /*# sourceMappingURL=Style.css.map */

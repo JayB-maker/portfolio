@@ -6,7 +6,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 100px;
 }
 
 .container.portfolio .portfolio-container {
@@ -65,9 +64,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .container.portfolio {
-    gap: 50px;
-  }
   .container.portfolio .portfolio-container {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
@@ -79,7 +75,6 @@
   .container.portfolio .portfolio-container {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    gap: 60px;
   }
   .container.portfolio .portfolio-container {
     padding: 0 1rem;

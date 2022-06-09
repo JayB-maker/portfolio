@@ -105,3 +105,21 @@ export const portfolioDetails = [{
     liveDemoLink: "https://jayb-maker.github.io/Filterable-Gallery/",
     imageSRC: "images/filterable.jpg",
 }, ]
+
+export const testimonialDetails = [{
+    imageSRC: "images/jaybcolored.png",
+    personsName: "Jesus",
+    tesstimonial: "Lorem ipsum dolor sit amet, id lacus consectetur adipiscing elit. Vivamus egestas, luctus eni",
+}, {
+    imageSRC: "images/jaybcolored.png",
+    personsName: "JayB",
+    tesstimonial: "Lorem ipsum dolor sit amet, id lacus consectetur adipiscing elit. Vivamus egestas, luctus eni",
+}, {
+    imageSRC: "images/jaybcolored.png",
+    personsName: "Bjay",
+    tesstimonial: "Lorem ipsum dolor sit amet, id lacus consectetur adipiscing elit. Vivamus egestas, luctus eni",
+}, ]
+
+export const contactDetais = [{
+    
+}]

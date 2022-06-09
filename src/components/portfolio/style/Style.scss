@@ -1,7 +1,6 @@
 .container.portfolio{
     display: flex;
     flex-direction: column;
-    gap: 100px;
 
     .portfolio-container{
         display: grid;
@@ -48,8 +47,6 @@
 
 @media screen and (max-width: 1024px){
     .container.portfolio{
-        gap: 50px;
-
         .portfolio-container{
             grid-template-columns: 1fr 1fr;
             gap: 60px;
@@ -61,7 +58,6 @@
     .container.portfolio{
         .portfolio-container{
             grid-template-columns: 1fr;
-            gap: 60px;
         }
 
         .portfolio-container{

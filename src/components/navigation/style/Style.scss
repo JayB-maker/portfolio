@@ -15,7 +15,7 @@ header{
         margin-bottom: 0;
 
         a{
-            font-family: 'Source Sans Pro', sans-serif;
+            font-family: 'Kdam Thmor Pro', sans-serif;
             font-size: 2.5rem;
             font-weight: bold;
 
@@ -92,6 +92,17 @@ header{
                 }
             }
 
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    header{
+        padding: 20px 0;
+        .container{
+            a{
+                font-size: 1.7rem;
+            }
         }
     }
 }

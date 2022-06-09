@@ -1,13 +1,7 @@
 .container.about{
-    margin-top: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 100px;
-
-    .headers{
-        text-align: center;
-    }
 
     .about-flex{
         width: 80%;
@@ -20,6 +14,8 @@
             height: 350px;
             border-radius: 2rem;
             background: var(--accent);
+            display: flex;
+            align-items: center;
 
             .inner-container{
                 width: 100%;
@@ -58,8 +54,8 @@
 
 @media screen and (max-width: 1024px){
     .container.about{
-        margin-top: 70px;
         .about-flex{
+            margin-top: 50px;
             .image-container{
                 display: none;
             }
