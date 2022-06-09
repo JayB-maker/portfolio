@@ -4,6 +4,8 @@
   -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 60px;
+  width: 330px;
+  padding-bottom: 3rem;
 }
 
 .container.testimonial .testimonial-cards .card {
@@ -47,9 +49,7 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 600px) {
-  .testimonial-cards {
-    padding: 1rem;
-  }
+.container.testimonial .testimonial-cards .swiper-pagination-clickable .swiper-pagination-bullet {
+  background: var(--accent);
 }
 /*# sourceMappingURL=Style.css.map */

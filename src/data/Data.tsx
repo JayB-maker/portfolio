@@ -121,5 +121,11 @@ export const testimonialDetails = [{
 }, ]
 
 export const contactDetais = [{
-    
-}]
+    stash: "Email",
+    handle: "ajiboyeabiodun001@gmail.com",
+    actionSRC: "",
+}, {
+    stash: "Whatsapp",
+    handle: "+234 813 890 0164",
+    actionSRC: "",
+}, ]

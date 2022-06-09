@@ -3,6 +3,9 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 60px;
+        width: 330px;
+        padding-bottom: 3rem;
+
 
         .card{
             background: var(--primary-color);
@@ -32,11 +35,8 @@
 
             }
         }
-    }
-}
-
-@media screen and (max-width: 600px){
-    .testimonial-cards{
-        padding: 1rem;
+        .swiper-pagination-clickable .swiper-pagination-bullet{
+            background: var(--accent);
+        }
     }
 }

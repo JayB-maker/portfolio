@@ -1,11 +1,22 @@
 import { testimonialDetails } from "../../data/Data"
+import { Pagination } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 const TestimonialCard = () => {
   return (
     <>
-        <div className="testimonial-cards">
+        <Swiper 
+        modules={[Pagination]}
+        spaceBetween={50}
+        slidesPerView={1}
+        pagination={{ clickable: true }}
+        className="testimonial-cards">
             {testimonialDetails.map((item, key) => (
-                <div className="card" key={key}>
+                <SwiperSlide className="card" key={key}>
                     <div className="image-container">
                         <div className="inner-container">
                             <img src={item.imageSRC} alt={item.personsName} />
@@ -17,9 +28,9 @@ const TestimonialCard = () => {
                     <div className="testimonial">
                         <p>{item.tesstimonial}</p>
                     </div>
-                </div>
+                </SwiperSlide>
             ))}
-        </div>
+        </Swiper>
     </>
   )
 }
