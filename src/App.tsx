@@ -2,6 +2,7 @@ import './App.css';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Experience from './components/experience/Experience';
+import Footer from './components/footer/Footer';
 import Home from './components/home/Home';
 import Navigation from './components/navigation/Navigation';
 import Portfolio from './components/portfolio/Portfolio';
@@ -21,6 +22,7 @@ function App() {
       <Portfolio />
       <Testimonial />
       <Contact />
+      <Footer />
     </>
   );
 }

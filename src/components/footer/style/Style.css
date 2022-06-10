@@ -1,0 +1,80 @@
+footer {
+  background-color: var(--accent);
+  color: var(--background-color);
+  padding: 1rem;
+}
+
+footer .container {
+  text-align: center;
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+footer .container .mobile-menu, footer .container .exit {
+  display: none;
+}
+
+footer .container a {
+  color: var(--background-color);
+}
+
+footer .container a:hover {
+  opacity: 0.9;
+}
+
+footer .container .nav-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+footer .container .nav-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+footer .container .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+footer .container .left a {
+  background-color: var(--background-color);
+  color: var(--accent);
+  padding: 0.3rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  footer .container .nav-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer .container .nav-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  footer .container .nav-container ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(100px, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+  }
+}
+/*# sourceMappingURL=Style.css.map */
