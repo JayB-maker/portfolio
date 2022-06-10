@@ -1,3 +1,6 @@
+import ContactBody from "./contactBody/ContactBody"
+import './style/Style.css'
+
 const ContactHeader = () =>{
     return(
         <>
@@ -11,7 +14,10 @@ const ContactHeader = () =>{
 const Contact = () => {
   return (
     <>
-        <ContactHeader />
+        <div className="container contact">
+            <ContactHeader />
+            <ContactBody />
+        </div>
     </>
   )
 }

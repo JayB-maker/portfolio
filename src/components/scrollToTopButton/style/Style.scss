@@ -1,0 +1,16 @@
+.scroll-to-top{
+    position: fixed;
+    z-index: 100;
+    right: 10%;
+    bottom: 5%;
+
+    a{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .scroll-to-top{
+        right: 5%;
+    }
+}

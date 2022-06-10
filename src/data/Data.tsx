@@ -123,9 +123,13 @@ export const testimonialDetails = [{
 export const contactDetais = [{
     stash: "Email",
     handle: "ajiboyeabiodun001@gmail.com",
-    actionSRC: "",
+    actionSRC: "mailto:ajiboyeabiodun001@gmail.com",
 }, {
     stash: "Whatsapp",
-    handle: "+234 813 890 0164",
-    actionSRC: "",
+    handle: "+234 (0) 813 890 0164",
+    actionSRC: "https://api.whatsapp.com/send?phone+2348138900164",
+}, {
+    stash: "Telegram",
+    handle: "+234 (0) 813 890 0164",
+    actionSRC: "https://t.me/+2348138900164",
 }, ]
