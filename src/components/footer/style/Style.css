@@ -57,6 +57,10 @@ footer .container .left a {
   border-radius: 5px;
 }
 
+footer .container .left .line {
+  display: none;
+}
+
 @media screen and (max-width: 1024px) {
   footer .container .nav-container {
     width: 80%;
