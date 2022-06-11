@@ -1,12 +1,10 @@
-import { navs } from "../../data/Data";
 import "./style/Style.css"
-import { MdClose } from "react-icons/md";
-import { BiMenuAltRight } from "react-icons/bi";
 import { useState } from "react";
 import NavigationBars from "./NavigationBars";
+import { INavigationSectionProps } from "../../types/types";
 
 
-const Navigation = () => {
+const Navigation = (props:INavigationSectionProps) => {
 
     const [navState, setNavState] = useState(false);
 

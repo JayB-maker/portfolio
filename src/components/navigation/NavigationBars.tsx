@@ -1,8 +1,9 @@
 import { navs } from '../../data/Data'
 import { MdClose } from 'react-icons/md'
 import { BiMenuAltRight } from 'react-icons/bi'
+import { INavigationSectionProps } from '../../types/types'
 
-const NavigationBars = (props: any) => {
+const NavigationBars = (props: INavigationSectionProps) => {
     const {navState, setNavState} = props
   return (
     <>

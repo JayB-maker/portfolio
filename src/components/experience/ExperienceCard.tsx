@@ -1,8 +1,9 @@
 import { experienceDetails } from "../../data/Data"
 import {AiFillCheckCircle} from "react-icons/ai"
+import { IExperienceSectionProps } from "../../types/types"
 
 
-const ExperienceCard = () => {
+const ExperienceCard = (props: IExperienceSectionProps) => {
   return (
     <>
     <div className="experience-flex">

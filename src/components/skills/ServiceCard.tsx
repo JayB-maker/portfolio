@@ -1,7 +1,8 @@
 import { serviceDetails } from '../../data/Data'
 import { AiFillCheckCircle } from 'react-icons/ai'
+import { IServiceSectionProps } from '../../types/types'
 
-const ServiceCard = () => {
+const ServiceCard = (props: IServiceSectionProps) => {
   return (
     <>
         <div className="service-grid">

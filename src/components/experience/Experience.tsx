@@ -1,3 +1,4 @@
+import { IExperienceSectionProps } from "../../types/types";
 import ExperienceCard from "./ExperienceCard";
 import "./style/Style.css";
 
