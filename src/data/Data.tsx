@@ -127,7 +127,7 @@ export const contactDetais = [{
 }, {
     stash: "Whatsapp",
     handle: "+234 (0) 813 890 0164",
-    actionSRC: "https://api.whatsapp.com/send?phone+2348138900164",
+    actionSRC: "https://wa.link/3eayz5",
 }, {
     stash: "Telegram",
     handle: "+234 (0) 813 890 0164",
